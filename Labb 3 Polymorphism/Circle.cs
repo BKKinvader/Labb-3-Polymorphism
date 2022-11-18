@@ -7,8 +7,6 @@ namespace Labb_3_Polymorphism
     internal class Circle : Geometry
     {
         public double Radius { get; set; }
-        public double Diameter { get; set; }
-
         public override double Area()
         {
             double area = Radius * Radius * Math.PI;
